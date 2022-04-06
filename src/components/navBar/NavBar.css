@@ -1,0 +1,32 @@
+.navbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    position: relative;
+}
+
+.navbar_item{
+    height: 100%;
+    background-color: rgb(203, 219, 255);
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid rgb(129, 166, 255);
+    transition: all 0.1s ease-in-out;
+    border-radius: 10px;
+}
+
+.navbar_item:hover{
+    background-color: rgb(129, 166, 255);
+    color: white;
+}
+
+.navbar_item--active{
+    background-color: rgb(129, 166, 255);
+    color: white;
+}
